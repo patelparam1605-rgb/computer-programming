@@ -1,0 +1,11 @@
+ # include < stdio .h >
+
+ int main ()
+ {
+ int n ,g , d ;
+ printf (" Enter the gross sales :");
+ scanf ("%d" ,& g );
+ d =0.1;
+ n = g - ( g * 0.1);
+ printf (" Net sales is : n = %d\n",n );           return 0;
+  }
