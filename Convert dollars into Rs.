@@ -1,0 +1,9 @@
+ # include <stdio.h>
+ int main ()
+ {
+ int a, Rs;
+ printf(" Enter the dollars:");
+ scanf("%d" ,&a);
+ Rs = a * 48;
+ printf(" This given dollars into Rs is %d * %d = %d\n",a,48,Rs );
+   }
