@@ -1,0 +1,15 @@
+ #include<stdio.h>
+ 
+  int main()
+{
+ int bytes,kb,mb,gb;
+ printf("Enter the bytes:");
+ scanf("%d",&bytes);
+ kb= bytes/1024;
+ mb=kb/1024;
+ gb=mb/1024;
+ printf("The value in kb is kb = %d\n",kb);
+ printf("The vlaue in mb is mb = %d\n",mb);
+ printf("The value in gb is gb = %d\n",gb);
+ return 0;
+}
