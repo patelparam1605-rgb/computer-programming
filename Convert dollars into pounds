@@ -1,0 +1,10 @@
+#include<stdio.h>
+  
+ int main() 
+{
+ float a,pounds;
+ printf("Enter the dollers:");
+ scanf("%f",&a);
+ pounds =(a * 48) / 70;
+ printf("This given dollers (%f) into pounds is %d\n", a, pounds);
+}
