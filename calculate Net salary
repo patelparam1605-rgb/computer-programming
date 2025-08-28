@@ -1,0 +1,15 @@
+ #include<stdio.h>
+ 
+  int main()
+  {
+ int n,g,a,d;
+ printf("Enter the gross salary: ");
+ scanf("%d",&g);
+ a= g * 0.1;
+ d= g * 0.03;
+ n= g + a- d;
+ printf("Allowance is : %d * 0.1 = %d\n",g,a);
+ printf("Deduction is : %d * 0.03 = %d\n",g,d);
+ printf("Net salary is : n = %d\n",n);
+ return 0;
+}
